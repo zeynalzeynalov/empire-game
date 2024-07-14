@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "71bc793f-4271-467e-9595-000c6a6e1f70",
+		"name": "EmpireGameRestCallsCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Check Empire Game Army Service Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{GameBackendBaseUrl}}/api/army",
+					"host": [
+						"{{GameBackendBaseUrl}}"
+					],
+					"path": [
+						"api",
+						"army"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a new army",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"armyMenStrong\": 167\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{GameBackendBaseUrl}}/api/army",
+					"host": [
+						"{{GameBackendBaseUrl}}"
+					],
+					"path": [
+						"api",
+						"army"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "GameBackendBaseUrl",
+			"value": "http://localhost:8080"
+		}
+	]
+}
