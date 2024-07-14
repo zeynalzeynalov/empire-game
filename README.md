@@ -1,10 +1,10 @@
 **Frameworks:**
 
-Java 11
+- Java 11
 
-Spring Boot
+- Spring Boot
 
-Maven
+- Maven
 
 **Application config:**
 
@@ -16,23 +16,24 @@ Maven
 		
 **Application description:**
 
-To check wheter game army generation service status please call: http://localhost:8080/api/army
+- To check wheter game army generation service status please call: http://localhost:8080/api/army
 
-To generate a random army please call: http://localhost:8080/api/army with POST request
+
+- To generate a random army please call: http://localhost:8080/api/army with POST request
 		-Body format for POST request:
 			{
 				"armyMenStrong": 10
 			}
-To change limit of non repetative random, please update empiregame.maxcalllimit=200 variable at application properties file.
-
+   
+- To change limit of non repetative random, please update empiregame.maxcalllimit=200 variable at application properties file.
 
 **How to build:**
 
 	Please run command file buildProject.cmd
 
--Postman collection file contains test endpoints calls: EmpireGameRestCallsCollection.postman_collection.json
+- Postman collection file contains test endpoints calls: EmpireGameRestCallsCollection.postman_collection.json
 
--Algorithm used for random number selection: [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
+- Algorithm used for random number selection: [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
 
 
 
