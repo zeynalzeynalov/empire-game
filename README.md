@@ -1,6 +1,6 @@
 # Empire game
 
-**Frameworks:**
+**Tech stack:**
 
 - Java 11
 
