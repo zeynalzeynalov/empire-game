@@ -39,9 +39,12 @@ Please execute command file:
 	buildProject.cmd
 ```
 
-- Postman collection file contains test endpoints calls: EmpireGameRestCallsCollection.postman_collection.json
+- Postman collection file contains test endpoints calls: 
+`EmpireGameRestCallsCollection.postman_collection.json`
 
-- Algorithm used for random number selection: [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
+
+- Algorithm used for random number selection:
+  - [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
 
 
 
