@@ -34,6 +34,7 @@
 - To change limit of non-repetitive random, please update empiregame.maxcalllimit=200 variable at application properties file.
 
 **How to build:**
+
 Please execute command file:
 ```
 	buildProject.cmd
