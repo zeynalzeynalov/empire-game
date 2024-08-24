@@ -2,11 +2,9 @@
 
 **Tech stack:**
 
-- Java 11
+- Java
 
 - Spring Boot
-
-- Maven
 
 **Application config:**
 
