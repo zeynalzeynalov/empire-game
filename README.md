@@ -18,7 +18,9 @@
 		
 **Application description:**
 
-- To check whether game army generation service status please call: http://localhost:8080/api/army
+- To check whether game army generation service status please call:
+
+  http://localhost:8080/api/army
 
 
 - To generate a random army please call: http://localhost:8080/api/army with POST request:
