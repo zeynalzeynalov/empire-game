@@ -38,7 +38,7 @@ Please execute command file:
 	buildProject.cmd
 ```
 
-- Postman collection file contains test endpoints calls: 
+- Postman collection file which contains test endpoints calls: 
 `EmpireGameRestCallsCollection.postman_collection.json`
 
 
