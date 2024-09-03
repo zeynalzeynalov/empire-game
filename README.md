@@ -20,7 +20,7 @@
 
 - To check whether game army generation service status please call:
 
-  http://localhost:8080/api/army
+  `http://localhost:8080/api/army`
 
 
 - To generate a random army please call: http://localhost:8080/api/army with POST request:
@@ -30,7 +30,7 @@
 	"armyMenStrong": 10
 }
 ```
-   
+
 - To change limit of non-repetitive random, please update empiregame.maxcalllimit=200 variable at application properties file.
 
 **How to build:**
